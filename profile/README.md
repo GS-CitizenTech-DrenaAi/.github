@@ -106,7 +106,7 @@ A coleta de lixo atende os chamados por ordem de chegada, mas um bueiro entupido
 
 ## 5. ✨ Funcionalidades (por camada)
 
-### 5.1. 📱 Mobile (Bibas)
+### 5.1. 📱 Mobile (Maria Alice)
 
 O app abre no login e depois mostra três abas (Expo Router), com uma tela de detalhe e uma de perfil.
 
@@ -122,7 +122,7 @@ O app abre no login e depois mostra três abas (Expo Router), com uma tela de de
 - 💾 O app salva dados localmente em SQLite (as denúncias do próprio usuário e a última lista do bairro), o que atende ao requisito de banco de dados da disciplina.
 - 🧓 Acessibilidade: letras legíveis, bom contraste, linguagem simples e telas pequenas.
 
-### 5.2. ⚙️ Backend em C# e serviços (Vini Boy)
+### 5.2. ⚙️ Backend em C# e serviços (Vinícius)
 
 Uma única API em C#/.NET atende as disciplinas de C# e de Arquitetura Orientada a Serviços. O README de cada entrega aponta as partes que cada disciplina avalia.
 
@@ -188,7 +188,7 @@ São duas IAs diferentes, e só uma delas é o modelo avaliado na disciplina de 
 - **🌊 Modelo de risco de alagamento:** prevê se uma região sofrerá consequências com acúmulo de lixo e chuvas recorrentes. Cruza os chamados do SP156 com a precipitação (INMET ou CGE-SP) e o histórico de alagamento. A saída alimenta o V do IPC. Exige dados reais e públicos (dados simulados não são aceitos), pelo menos 10 combinações de 3 hiperparâmetros com validação cruzada só no treino, métricas de treino e teste lado a lado e discussão de overfitting.
 - **📷 Severidade da foto:** modelo de visão local, chamado pelo backend. Devolve severidade, confiança e uma justificativa curta. Entra como serviço integrado, não como o modelo avaliado.
 
-### 5.4. 📡 Sensores ESP32 (Bradesco)
+### 5.4. 📡 Sensores ESP32 (Pedro)
 
 Sensoriamento dos bueiros e dos locais de descarte comunitário para evitar acúmulo excessivo, simulado no Wokwi com um bueiro monitorado.
 
@@ -255,8 +255,8 @@ Infraestrutura Linux para hospedar e manter o sistema em operação.
 
 | Integrante | Disciplinas | Papel e responsabilidades |
 | --- | --- | --- |
-| Bibas 👩‍💻 | Mobile Development & IOT | 📱 App em React Native: login, abas, formulário, detalhe, SQLite local, acessibilidade, README com prints e vídeo de até 3 min |
-| Vini Boy 🧑‍💻 | C# Software Development e Arquitetura Orientada a Serviços | ⚙️ API única em C#: entidades, endpoints, IPC com xUnit, EF Core com migrações, Swagger |
+| Maria Alice 👩‍💻 | Mobile Development & IOT | 📱 App em React Native: login, abas, formulário, detalhe, SQLite local, acessibilidade, README com prints e vídeo de até 3 min |
+| Vinícius 🧑‍💻 | C# Software Development e Arquitetura Orientada a Serviços | ⚙️ API única em C#: entidades, endpoints, IPC com xUnit, EF Core com migrações, Swagger |
 | João 🧠 | Inteligência Artificial & ML e Operating Systems | 🧠 Modelo de risco de alagamento e modelo de visão local; 🐧 scripts de Linux, monitoramento e vídeo de até 7 min |
 | Rafael 🔒 | Cybersecurity e Testing, Compliance & QA | 🔒 Parsing de PII, Taint Analysis, LLM de comunicados, dashboard Risco Cidadão; ✅ Azure Boards e pitch |
 | Pedro 📡 | Physical Computing | 📡 Circuito ESP32 no Wokwi com sensores, LEDs, buzzer e telemetria, vídeo de até 4 min |
